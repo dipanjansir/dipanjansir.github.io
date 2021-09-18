@@ -1,80 +1,5 @@
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container portfolio-flex-grid">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>COURSES</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="portfolio-flex-row">
-                <div class="portfolio-flex-item portfolio-item">
-                        <h5>For UG Students (both online and Offline)</h5>
-                            <ul>
-                                <li>Mathematics (Minor)</li>
-                                <li>Statistics (Minor)</li>
-                                <li>Econometrics (Major)</li>
-                            </ul>
-                            
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
-                    </div>
-                    <div class="portfolio-flex-item portfolio-item">
-                        <h5>For Entrance Exams (both online and Offline)</h5>
-                            <ul>
-                                <li>IIT (JAM, for Economics)</li>
-                                <li>ISI (MSQE)</li>
-                                <li>DSE (MA/MSc)</li>
-                                <li>JNU (MA/MSc)</li>
-                                <li>IGIRDE (MA/MSc)</li>
-                            </ul>
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
-                    </div>
 
-                    <div class="portfolio-flex-item portfolio-item">
-                        <h5>Online Only</h5>
-                            <ul>
-                                <li>Advance Calculus</li>
-                                <li>Probability and Probability Distribution</li>
-                            </ul>
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
-                    </div>
-                {% for post in site.posts %}
-                    <!-- <div class="portfolio-flex-item portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
-                    </div> -->
-                {% endfor %}
-            </div>
-        </div>
-    </section>
 
 
     <!-- Portfolio Grid Section -->
@@ -138,6 +63,20 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
                     </div>
+
+
+
+                    <div class="portfolio-flex-item portfolio-item">
+                        <h5>South Kolkata</h5>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58957.948938646245!2d88.35737157701338!3d22.54647432090088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02779956b411dd%3A0x9bbbad8b68212b1f!2sGuidance%20by%20Dipanjan%20Sir!5e0!3m2!1sen!2sin!4v1631953433095!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                    <div class="portfolio-flex-item portfolio-item">
+                        <h5>North Kolkata</h5>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58957.948938646245!2d88.35737157701338!3d22.54647432090088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02772dc6b8f0b1%3A0x3bcb856040565634!2sGuidance%20by%20Dipanjan%20Sir!5e0!3m2!1sen!2sin!4v1631953576426!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+
                 {% for post in site.posts %}
                     <!-- <div class="portfolio-flex-item portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
