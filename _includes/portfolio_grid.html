@@ -75,3 +75,81 @@
             </div>
         </div>
     </section>
+
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container portfolio-flex-grid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>COURSES</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="portfolio-flex-row">
+                <div class="portfolio-flex-item portfolio-item">
+                        <h5>For UG Students (both online and Offline)</h5>
+                            <ul>
+                                <li>Mathematics (Minor)</li>
+                                <li>Statistics (Minor)</li>
+                                <li>Econometrics (Major)</li>
+                            </ul>
+                            
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                    <div class="portfolio-flex-item portfolio-item">
+                        <h5>For Entrance Exams (both online and Offline)</h5>
+                            <ul>
+                                <li>IIT (JAM, for Economics)</li>
+                                <li>ISI (MSQE)</li>
+                                <li>DSE (MA/MSc)</li>
+                                <li>JNU (MA/MSc)</li>
+                                <li>IGIRDE (MA/MSc)</li>
+                            </ul>
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+
+                    <div class="portfolio-flex-item portfolio-item">
+                        <h5>Online Only</h5>
+                            <ul>
+                                <li>Advance Calculus (11th & 12th ONLY)</li>
+                                <li>Probability and Probability Distribution  (11th & 12th ONLY)</li>
+                            </ul>
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                {% for post in site.posts %}
+                    <!-- <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div> -->
+                {% endfor %}
+            </div>
+        </div>
+    </section>
